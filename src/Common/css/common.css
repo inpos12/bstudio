@@ -1,0 +1,29 @@
+* {
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-repeat: no-repeat;
+  font-family: "NanumSquare", sans-serif;
+  image-rendering: -moz-crisp-edges;
+  /* firefox */
+  image-rendering: -o-crisp-edges;
+  /* opera */
+  image-rendering: -webkit-optimize-contrast;
+  /* chrome(비표준) */
+  image-rendering: crisp-edges;
+  -webkit-text-size-adjust: none;
+  /* 크롬, 사파리, 오페라(신) */
+  -ms-text-size-adjust: none;
+  /* IE */
+  -moz-text-size-adjust: none;
+  /* 파이어폭스 */
+  -o-text-size-adjust: none;
+  /* 오페라(구)*/
+  transition: all 0.5s ease-in-out;
+}
+body,
+html {
+  overflow-x: hidden;
+}
