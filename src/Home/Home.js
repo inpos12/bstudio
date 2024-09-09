@@ -1,22 +1,22 @@
-$.get("src/Nav/Nav.html", function (data) {
+$.get("/bstudio/src/Nav/Nav.html", function (data) {
   $("nav").html(data);
 });
-$.get("src/Home/Header/Header.html", function (data) {
+$.get("/bstudio/src/Home/Header/Header.html", function (data) {
   $("header").html(data);
 });
-$.get("/src/Home/Section1/Section1.html", function (data) {
+$.get("/bstudio/src/Home/Section1/Section1.html", function (data) {
   $("Section1").html(data);
 });
-$.get("/src/Home/Section2/Section2.html", function (data) {
+$.get("/bstudio/src/Home/Section2/Section2.html", function (data) {
   $("Section2").html(data);
 });
-$.get("/src/Home/Section3/Section3.html", function (data) {
+$.get("/bstudio/src/Home/Section3/Section3.html", function (data) {
   $("Section3").html(data);
 });
-$.get("/src/Home/Section4/Section4.html", function (data) {
+$.get("/bstudio/src/Home/Section4/Section4.html", function (data) {
   $("Section4").html(data);
 });
-$.get("/src/Home/Section5/Section5.html", function (data) {
+$.get("/bstudio/src/Home/Section5/Section5.html", function (data) {
   $("Section5").html(data);
 });
 
